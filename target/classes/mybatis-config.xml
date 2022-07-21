@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd" >
+<configuration>
+	<settings>
+		<setting name="jdbcTypeForNull" value="NULL" />
+		<setting name="returnInstanceForEmptyRow" value="true"/>
+		<setting name="callSettersOnNulls" value="true"/>
+	</settings>
+	<typeAliases> <!-- 별칭정리 -->
+		<!-- test <typeAlias type="kr.or.common.model.vo.Comment" alias="c"/>-->
+
+	</typeAliases>
+	<typeHandlers>
+        <typeHandler handler="kr.or.common.model.service.CLOBHandler" javaType="String" jdbcType="LONGVARCHAR"/>
+    </typeHandlers>
+
+</configuration>
