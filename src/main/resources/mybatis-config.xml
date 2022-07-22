@@ -10,8 +10,6 @@
 		<!-- test <typeAlias type="kr.or.common.model.vo.Comment" alias="c"/>-->
 
 	</typeAliases>
-	<typeHandlers>
-        <typeHandler handler="kr.or.common.model.service.CLOBHandler" javaType="String" jdbcType="LONGVARCHAR"/>
-    </typeHandlers>
+
 
 </configuration>
