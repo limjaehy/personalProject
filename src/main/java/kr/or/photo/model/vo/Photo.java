@@ -8,10 +8,23 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 public class Photo {
-	private int photoSeq; //������
-	private int photoNum; //�з��ڵ�
+	private int photoNumber; //������
+	private int photoCategoryNumber; //�з��ڵ�
 	private String photoTitle; //����
 	private String photoContent; //����
-	private String photoImagePath; //���� �̹���
+	private String photoImagepath; //���� �̹���
 	private String photoDate; //��¥
 }
+/*
+ CREATE TABLE PHOTO(
+    PHOTO_NUMBER NUMBER PRIMARY KEY,
+    PHOTO_CATEGORY_NUMBER NUMBER,
+    PHOTO_TITLE VARCHAR2(100),
+    PHOTO_CONTENT VARCHAR2(300),
+    PHOTO_IMAGEPATH VARCHAR2(200),
+    PHOTO_DATE DATE
+);
+
+CREATE SEQUENCE PHOTO_NUMBER_SEQ;
+ */
+ 

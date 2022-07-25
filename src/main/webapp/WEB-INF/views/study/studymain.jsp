@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
+<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -7,6 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Study메인페이지</h1>
+	<%@include file="/WEB-INF/views/common/header.jsp" %>
+		<div>
+			스터디 메인페이지
+		</div>
+	<%@include file="/WEB-INF/views/common/footer.jsp"%>
 </body>
 </html>

@@ -25,13 +25,14 @@
 	<context:component-scan base-package="kr.or.photo" />
 	<context:component-scan base-package="kr.or.study" />
 	<context:component-scan base-package="kr.or.info" />
+	<context:component-scan base-package="kr.or.member" />
 	
 	<!-- DB 접속 정보를 저장하는 객체 생성 -->
 	<beans:bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
 		<beans:property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />
 		<beans:property name="url" value="jdbc:oracle:thin:@127.0.0.1:1521:xe" />
-		<beans:property name="username" value="spring" />
-		<beans:property name="password" value="spring" />
+		<beans:property name="username" value="personal" />
+		<beans:property name="password" value="personal" />
 	</beans:bean>
 	<!-- 파일업로드 -->
 	<beans:bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
