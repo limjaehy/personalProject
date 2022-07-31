@@ -17,7 +17,7 @@ public class infoController {
 	
 	@RequestMapping(value="/infoMain.do")
 	public String studyMain() {
-		return null;
+		return "info/infomain";
 	}
 	
 }

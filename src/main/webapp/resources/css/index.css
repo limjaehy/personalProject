@@ -10,6 +10,11 @@ body{
 	height:auto;
 	margin: 0 auto;
 }
+
+.banner{
+	text-decoration:none;
+	color: black;
+}
 .main-header>div {
 	text-align: center;
 }

@@ -7,7 +7,7 @@
 		<div class="main">
 			<div class="main-header">
 				<div>
-					<h1 class="main-header-title">Lim's Blog</h1>
+					<h1 class="main-header-title"><a href="/" class="banner">Lim's Blog</a></h1>
 				</div>
 				<div class="header-sub-menu">
 					<ul>

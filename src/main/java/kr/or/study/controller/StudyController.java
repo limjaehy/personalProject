@@ -19,4 +19,6 @@ public class StudyController {
 	public String studyMain() {
 		return "study/studymain";
 	}
+	
+	
 }

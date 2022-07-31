@@ -9,7 +9,7 @@
 <body>
 	<%@include file="/WEB-INF/views/common/header.jsp" %>
 		<div class="main-content-study">
-			스터디 메인페이지
+			인포 메인페이지
 		</div>
 	<%@include file="/WEB-INF/views/common/footer.jsp"%>
 </body>
