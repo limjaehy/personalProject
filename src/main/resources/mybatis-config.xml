@@ -6,9 +6,11 @@
 		<setting name="returnInstanceForEmptyRow" value="true"/>
 		<setting name="callSettersOnNulls" value="true"/>
 	</settings>
-	<typeAliases> <!-- 별칭정리 -->
-		<!-- test <typeAlias type="kr.or.common.model.vo.Comment" alias="c"/>-->
-
+	<typeAliases>
+		<!-- 별칭정리 -->
+		<typeAlias type="kr.or.study.model.vo.Study" alias="s"/>
+		<typeAlias type="kr.or.photo.model.vo.Photo" alias="p"/>
+		<typeAlias type="kr.or.info.model.vo.Info" alias="i"/>
 	</typeAliases>
 
 

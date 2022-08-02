@@ -8,8 +8,25 @@
 </head>
 <body>
 	<%@include file="/WEB-INF/views/common/header.jsp" %>
-		<div class="main-content-study">
-			인포 메인페이지
+		<h1>INFO ROOM</h1>
+			<div class="row-content">
+				<div class="col-content"></div>
+				<div class="col-content"></div>
+				<div class="col-content"></div>
+				<div class="col-content"></div>
+			</div>
+			<div class="row-content">
+				<div class="col-content"></div>
+				<div class="col-content"></div>
+				<div class="col-content"></div>
+				<div class="col-content"></div>
+			</div>
+			<div class="row-content">
+				<div class="col-content"></div>
+				<div class="col-content"></div>
+				<div class="col-content"></div>
+				<div class="col-content"></div>
+			</div>
 		</div>
 	<%@include file="/WEB-INF/views/common/footer.jsp"%>
 </body>
