@@ -10,7 +10,8 @@
 <body>
 	<%@include file="/WEB-INF/views/common/header.jsp" %>
 		<div class="main-content-study">
-			이미지자리
+			<h1>MAIN PAGE</h1>
+			
 		</div>
 	<%@include file="/WEB-INF/views/common/footer.jsp"%>
 </body>

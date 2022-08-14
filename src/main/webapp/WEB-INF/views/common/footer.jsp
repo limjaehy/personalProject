@@ -3,6 +3,7 @@
     
 <footer>
 		<div class="main-footer">
-			임재형 웹페이지에 오신것을 환영합니다. 개인 공부 페이지 입니다.
+			Hello, this is Jaehyung Lim's personal space. This is a page to share study and daily life.
+			<br>안녕하세요 임재형의 개인공간 입니다. 공부 및 일상을 공유하는 페이지 입니다.
 		</div>
 </footer>
