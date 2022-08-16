@@ -22,9 +22,6 @@ public class StudyController {
 	@RequestMapping(value="/studyMain.do")
 	public String studyMain(Model model) {
 		//ArrayList<Study> list = service.selectStudyList();
-		
-		
-		
 		return "study/studymain";
 	}
 	
